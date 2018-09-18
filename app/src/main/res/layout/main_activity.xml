@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fonthPath="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallp"
+    android:orientation="vertical">
+
+
+    <TextView
+       android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:textColor="#00897B"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Expenses" />
+
+    <TextView
+        android:textColor="#009688"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border_curve_transperent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="36dp"/>
+
+    <TextView
+        android:textColor="#009688"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border_curve_transperent"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textSize="36dp"/>
+
+
+</LinearLayout>

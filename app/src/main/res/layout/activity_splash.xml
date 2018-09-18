@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#AD1457"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Expenses" />
+
+    <View
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/aaaa"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#C51162"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="20dp"
+            android:layout_margin="18dp"/>
+
+    <ProgressBar
+        android:layout_margin="18dp"
+        android:id="@+id/pb"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/custom_progress"
+        android:visibility="visible"
+
+        tools:style="@style/Widget.AppCompat.ProgressBar" />
+
+    </LinearLayout>
+
+</LinearLayout>
